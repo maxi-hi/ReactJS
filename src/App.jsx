@@ -6,8 +6,7 @@ import "./css/main.css"
 function App() {
   return (
     <>
-    
-    <Header/>
+    <Header title="Maxishop" />
     <ItemListContainer/>
     
     </>
