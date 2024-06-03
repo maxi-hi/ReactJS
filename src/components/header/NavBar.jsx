@@ -1,5 +1,5 @@
 import React from "react"
-import { Carrito } from "./Carrito"
+import { Carrito } from "./header/Carrito"
 
 export const NavBar = () => {
     return (
