@@ -1,24 +1,116 @@
+/* Reset y configuración básica */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root {
+    color-scheme: light dark;
+    --color-primary: #1e3a8a; /* Azul oscuro */
+    --color-secondary: #ffffff; /* Blanco */
+    --color-background: #f0f0f0; /* Gris claro */
+    --color-text: #333333; /* Gris oscuro */
+    --color-dark-background: #222222; /* Gris oscuro */
+    --color-dark-text: #f5f5f5; /* Blanco claro */
+}
+
+/* Encabezado */
 .header {
+    background-color: var(--color-primary);
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: rebeccapurple;
     padding: 1rem;
+    align-items: center;
+    color: var(--color-secondary);
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+/* Navegación */
+.nav {
+    display: flex;
 }
 
 .nav-menu {
-    display: flex;
     list-style-type: none;
-    gap: .5rem;
+    display: flex;
+    gap: 1rem;
 }
 
 .nav-link {
-    text-decoration: none ;
-    color: white;
+    color: var(--color-secondary);
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Contenedor de productos */
+.products-container {
+    min-height: 30vh;
+    display: grid;
+    place-items: center;
+    background-color: var(--color-background);
+}
+
+/* Modo oscuro */
+.oscuro {
+    background-color: var(--color-dark-background) !important;
+    color: var(--color-dark-text) !important;
+}
+
+.oscuro .nav-link {
+    color: var(--color-dark-text);
+}
+
+.oscuro .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor de lista de ítems */
+.item-list-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Grilla de productos */
+.productos-grilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.producto {
+    background-color: var(--color-primary);
+    border-radius: .5rem;
+    padding: 1rem;
+    color: var(--color-secondary);
+}
+
+/* Grilla genérica */
+.grid {
+    display: grid;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 5rem;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    text-align: center;
+    padding: 1rem;
 }
