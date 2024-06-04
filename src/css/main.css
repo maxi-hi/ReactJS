@@ -1,4 +1,4 @@
-/* Reset y configuración básica */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@
     --color-dark-text: #f5f5f5; /* Blanco claro */
 }
 
-/* Encabezado */
+
 .header {
     background-color: var(--color-primary);
     display: flex;
@@ -23,9 +23,10 @@
     padding: 1rem;
     align-items: center;
     color: var(--color-secondary);
+    
 }
 
-/* Contenedor principal */
+
 .container {
     max-width: 1000px;
     margin: auto;
@@ -34,7 +35,7 @@
     gap: 1rem;
 }
 
-/* Navegación */
+
 .nav {
     display: flex;
 }
@@ -59,7 +60,7 @@
     text-decoration: underline;
 }
 
-/* Contenedor de productos */
+
 .products-container {
     min-height: 30vh;
     display: grid;
@@ -67,7 +68,7 @@
     background-color: var(--color-background);
 }
 
-/* Modo oscuro */
+
 .oscuro {
     background-color: var(--color-dark-background) !important;
     color: var(--color-dark-text) !important;
@@ -81,54 +82,54 @@
     text-decoration: underline;
 }
 
-/* Contenedor de lista de ítems */
+
 .item-list-container {
     max-width: 1000px;
     margin: 0 auto;
 }
 
-/* Grilla de productos */
+
 .productos-grilla {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
 }
 
-/* Estilos para las cajas de productos */
+
 .producto {
-    background-color: transparent; /* Cambiamos el color de fondo a transparente */
+    background-color: transparent; 
     border-radius: 0.5rem;
     padding: 1rem;
     color: var(--color-secondary);
-    border: 1px solid #ccc; /* Agregamos un borde gris claro para separar visualmente las cajas */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agregamos una sombra suave para dar profundidad */
+    border: 1px solid #ccc; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-/* Estilos para las cajas de categorías */
+
 .categoria {
-    background-color: transparent; /* Cambiamos el color de fondo a transparente */
+    background-color: transparent; 
     border-radius: 0.5rem;
     padding: 1rem;
     color: var(--color-secondary);
-    border: 1px solid #ccc; /* Agregamos un borde gris claro para separar visualmente las cajas */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agregamos una sombra suave para dar profundidad */
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 
-/* Estilos para las imágenes en la grilla de productos */
+
 .producto img {
-    max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-    display: block; /* Elimina el espacio adicional debajo de la imagen */
-    border-radius: 0.5rem; /* Agrega bordes redondeados a las imágenes */
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    border-radius: 0.5rem; 
 }
 
-/* Grilla genérica */
+
 .grid {
     display: grid;
 }
 
-/* Pie de página */
+
 footer {
     margin-top: 5rem;
     background-color: var(--color-primary);
