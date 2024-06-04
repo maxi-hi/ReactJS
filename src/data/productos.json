@@ -1,109 +1,109 @@
 [
-    {
+    {     
         "id": 1,
-        "nombre": "Camiseta Deportiva",
+        "nombre": "PC Armada 1",
         "precio": 19.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Camiseta ligera y transpirable, perfecta para hacer ejercicio.",
+        "imagen": "/src/assets/PC-ARMADA-1.png",
+        "descripcion": "PC Gamer gama baja.",
         "categoria": {
             "id": "ropa",
             "nombre": "Ropa"
         }
     },
-    {
+    {   
         "id": 2,
-        "nombre": "Zapatillas de Running",
+        "nombre": "Pc Armada 2",
         "precio": 49.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Zapatillas con amortiguación avanzada para largas distancias.",
+        "imagen": "/src/assets/PC-Armada-2.png",
+        "descripcion": "PC gamer gama media.",
         "categoria": {
             "id": "ropa",
             "nombre": "Ropa"
         }
     },
     {
-        "id": 3,
-        "nombre": "Mochila Escolar",
+        "id": 3,  
+        "nombre": "Accesorios 1",
         "precio": 24.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Mochila resistente y espaciosa, ideal para el día a día escolar.",
+        "imagen": "/src/assets/accesorio-1.jpeg",
+        "descripcion": "Mouse Logitech.",
         "categoria": {
             "id": "accesorios",
             "nombre": "Accesorios"
         }
     },
     {
-        "id": 4,
-        "nombre": "Auriculares Bluetooth",
+        "id": 4,  
+        "nombre": "Hardware 1",
         "precio": 29.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Auriculares inalámbricos con sonido de alta calidad y batería de larga duración.",
+        "imagen": "/src/assets/hardware-1.jpg",
+        "descripcion": "Intel Core i3 10th.",
         "categoria": {
             "id": "tecnologia",
             "nombre": "Tecnología"
         }
     },
     {
-        "id": 5,
-        "nombre": "Reloj Inteligente",
+        "id": 5,   
+        "nombre": "Hardware 2",
         "precio": 79.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Reloj con monitoreo de salud y notificaciones inteligentes.",
+        "imagen": "/src/assets/hardware-2.jpg",
+        "descripcion": "Tarjeta madre Intel® Z690 EATX con 24 + 1 fases de poder, DDR5 con OptiMem III, cinco M.2, puerto de panel frontal USB 3.2 Gen 2x2 con soporte Quick Charge 4+, Dual Thunderbolt™ 4, PCIe® 5.0, Wi-Fi 6E integrado e iluminación Aura Sync RGB. .",
         "categoria": {
             "id": "tecnologia",
             "nombre": "Tecnología"
         }
     },
     {
-        "id": 6,
-        "nombre": "Gafas de Sol",
+        "id": 6,   
+        "nombre": "Pc Armada 3",
         "precio": 15.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Gafas con protección UV y diseño moderno.",
+        "imagen": "/src/assets/PC-Armada-3.png",
+        "descripcion": "PC Gamer gama alta.",
         "categoria": {
             "id": "ropa",
             "nombre": "Ropa"
         }
     },
     {
-        "id": 7,
-        "nombre": "Bolígrafo de Lujo",
+        "id": 7,   
+        "nombre": "Accesorios 2",
         "precio": 9.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Bolígrafo elegante y duradero, perfecto para regalos.",
+        "imagen": "/src/assets/accesorio-2.jpeg",
+        "descripcion": "Teclado Gamer Hyperx.",
         "categoria": {
             "id": "accesorios",
             "nombre": "Accesorios"
         }
     },
     {
-        "id": 8,
-        "nombre": "Cargador Inalámbrico",
+        "id": 8,  
+        "nombre": "Hardware 3",
         "precio": 19.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Cargador rápido y eficiente compatible con la mayoría de los dispositivos.",
+        "imagen": "/src/assets/hardware-3.jpg",
+        "descripcion": "Ram 16gb DDR4 2600hz.",
         "categoria": {
             "id": "tecnologia",
             "nombre": "Tecnología"
         }
     },
     {
-        "id": 9,
-        "nombre": "Termo de Acero Inoxidable",
+        "id": 9,   
+        "nombre": "Accesorios 3",
         "precio": 14.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Termo de alta calidad que mantiene las bebidas calientes o frías por horas.",
+        "imagen": "/src/assets/accesorio-3.jpg",
+        "descripcion": "Auriculares Gamer X.",
         "categoria": {
             "id": "accesorios",
             "nombre": "Accesorios"
         }
     },
     {
-        "id": 10,
-        "nombre": "Libreta de Notas",
+        "id": 10,   
+        "nombre": "Accesorios 4",
         "precio": 7.99,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Libreta con cubierta dura y papel de alta calidad.",
+        "imagen": "/src/assets/accesorio-4.jpeg",
+        "descripcion": "Teclado Gamer One Hand.",
         "categoria": {
             "id": "accesorios",
             "nombre": "Accesorios"

@@ -94,11 +94,33 @@
     gap: 1rem;
 }
 
+/* Estilos para las cajas de productos */
 .producto {
-    background-color: var(--color-primary);
-    border-radius: .5rem;
+    background-color: transparent; /* Cambiamos el color de fondo a transparente */
+    border-radius: 0.5rem;
     padding: 1rem;
     color: var(--color-secondary);
+    border: 1px solid #ccc; /* Agregamos un borde gris claro para separar visualmente las cajas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agregamos una sombra suave para dar profundidad */
+}
+
+/* Estilos para las cajas de categorías */
+.categoria {
+    background-color: transparent; /* Cambiamos el color de fondo a transparente */
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: var(--color-secondary);
+    border: 1px solid #ccc; /* Agregamos un borde gris claro para separar visualmente las cajas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agregamos una sombra suave para dar profundidad */
+}
+
+
+/* Estilos para las imágenes en la grilla de productos */
+.producto img {
+    max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+    border-radius: 0.5rem; /* Agrega bordes redondeados a las imágenes */
 }
 
 /* Grilla genérica */
@@ -114,3 +136,5 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+
